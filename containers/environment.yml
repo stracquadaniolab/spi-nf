@@ -1,0 +1,12 @@
+name: spi-nf
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - git
+  - nomkl
+  - python>=3.8
+  - numpy
+  - scipy
+  - biopython
