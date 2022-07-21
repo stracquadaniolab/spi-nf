@@ -69,7 +69,6 @@ if __name__ == "__main__":
            (np.abs(c_b - options.b) <= options.rb):
             filtered_pool[curr_param] = curr_traj
 
-
     print("Reweighting using %d simulations." % len(filtered_pool.keys()))
     # creating the MC sampler
     mc = ReweightGridMonteCarloSampler(genome)
